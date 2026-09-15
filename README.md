@@ -50,3 +50,12 @@ Freight rate is not simply proportional to distance. Shorter lanes tend to have 
 * Better lane representation using embeddings
 * Prediction intervals
 * More historical data for learning seasonal and holiday effects
+
+* ## How to Run
+
+Install dependencies:
+
+```bash
+python -m pip install -r requirements.txt
+python score.py --predictions validation_predictions.csv --december-predictions data/december_chart_inputs.csv
+'''
